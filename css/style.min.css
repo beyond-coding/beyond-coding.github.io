@@ -1,0 +1,42 @@
+/* 1. Colors
+   ========================================================================== */
+/* 2. Global
+   ========================================================================== */
+html, body {
+  color: white;
+  background-color: #10181a; }
+
+.brand .valign-wrapper {
+  height: 100vh; }
+  .brand .valign-wrapper .valign {
+    width: 100%; }
+    .brand .valign-wrapper .valign h1 .brackets {
+      font-family: "Helvetica"; }
+      .brand .valign-wrapper .valign h1 .brackets span {
+        position: relative;
+        bottom: 0.17em;
+        font-size: 7em;
+        letter-spacing: -46px; }
+        @media all and (min-width: 993px) {
+          .brand .valign-wrapper .valign h1 .brackets span {
+            bottom: 0.14em;
+            font-size: 3em;
+            letter-spacing: -30px; } }
+        .brand .valign-wrapper .valign h1 .brackets span:nth-child(even) {
+          bottom: 0.4em;
+          color: #5eb8b8; }
+    .brand .valign-wrapper .valign h1 .name {
+      display: inline-block;
+      margin-left: 0.3em;
+      font-size: 1.3em;
+      font-weight: bolder;
+      text-align: left;
+      line-height: 1.1em; }
+      @media all and (min-width: 993px) {
+        .brand .valign-wrapper .valign h1 .name {
+          margin-left: 0.3em;
+          font-size: 1.1em; } }
+
+@media all and (min-width: 993px) {
+  .mobile-only {
+    display: none; } }

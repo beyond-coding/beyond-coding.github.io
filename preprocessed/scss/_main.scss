@@ -1,0 +1,58 @@
+html, body {
+    color: white;
+    background-color: $secondary-color;
+}
+
+.brand {
+    .valign-wrapper {
+        height: 100vh;
+        
+        .valign {
+            width: 100%;
+            
+            h1 {
+                .brackets {
+                    font-family: "Helvetica";
+
+                    span {
+                        position: relative;
+                        bottom: 0.17em;
+                        font-size: 7em;
+                        letter-spacing: -46px;
+                        
+                        @media all and (min-width: $medium-screen-up) {
+                            bottom: 0.14em;
+                            font-size: 3em;
+                            letter-spacing: -30px;
+                        }
+
+                        &:nth-child(even){
+                            bottom: 0.4em;
+                            color: $primary-color;
+                        }
+                    }
+                }
+                
+                .name {
+                    display: inline-block;
+                    margin-left: 0.3em;
+                    font-size: 1.3em;
+                    font-weight: bolder;
+                    text-align: left;
+                    line-height: 1.1em;
+                    
+                    @media all and (min-width: $medium-screen-up) {
+                        margin-left: 0.3em;
+                        font-size: 1.1em;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.mobile-only {
+    @media all and (min-width: $medium-screen-up) {
+        display: none;
+    }
+}

@@ -11,7 +11,7 @@ html, body {
   .brand .valign-wrapper .valign {
     width: 100%; }
     .brand .valign-wrapper .valign h1 .brackets {
-      font-family: "Helvetica"; }
+      font-family: "Helvetica" !important; }
       .brand .valign-wrapper .valign h1 .brackets span {
         position: relative;
         bottom: 0.17em;

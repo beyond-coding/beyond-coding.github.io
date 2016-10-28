@@ -3,8 +3,11 @@
 /* 2. Global
    ========================================================================== */
 @font-face {
-  font-family: "Helvetica";
-  src: url(../fonts/helvetica/helvetica-normal.ttf); }
+  font-family: 'helvetica';
+  src: url("../fonts/helvetica.eot");
+  src: url("../fonts/helvetica.eot?#iefix") format("embedded-opentype"), url("../fonts/helvetica.woff") format("woff"), url("../fonts/helvetica.ttf") format("truetype"), url("../fonts/helvetica.svg#HelveticaLTStdRoman") format("svg");
+  font-weight: normal;
+  font-style: normal; }
 html, body {
   color: white;
   background-color: #10181a; }
@@ -14,7 +17,7 @@ html, body {
   .brand .valign-wrapper .valign {
     width: 100%; }
     .brand .valign-wrapper .valign h1 .brackets {
-      font-family: "Helvetica" !important; }
+      font-family: "Helvetica"; }
       .brand .valign-wrapper .valign h1 .brackets span {
         position: relative;
         bottom: 0.17em;

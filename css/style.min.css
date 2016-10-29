@@ -21,8 +21,8 @@ html, body {
       .brand .valign-wrapper .valign h1 .brackets span {
         position: relative;
         bottom: 0.17em;
-        font-size: 7em;
-        letter-spacing: -46px; }
+        font-size: 5em;
+        letter-spacing: -40px; }
         @media all and (min-width: 993px) {
           .brand .valign-wrapper .valign h1 .brackets span {
             bottom: 0.14em;
@@ -34,14 +34,13 @@ html, body {
     .brand .valign-wrapper .valign h1 .name {
       display: inline-block;
       margin-left: 0.3em;
-      font-size: 1.3em;
+      font-size: 1.1em;
       font-weight: bolder;
       text-align: left;
       line-height: 1.1em; }
       @media all and (min-width: 993px) {
         .brand .valign-wrapper .valign h1 .name {
-          margin-left: 0.3em;
-          font-size: 1.1em; } }
+          margin-left: 0.3em; } }
 
 @media all and (min-width: 993px) {
   .mobile-only {

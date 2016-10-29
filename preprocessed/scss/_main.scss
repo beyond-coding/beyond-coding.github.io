@@ -25,8 +25,8 @@ html, body {
                     span {
                         position: relative;
                         bottom: 0.17em;
-                        font-size: 7em;
-                        letter-spacing: -46px;
+                        font-size: 5em;
+                        letter-spacing: -40px;
                         
                         @media all and (min-width: $medium-screen-up) {
                             bottom: 0.14em;
@@ -44,14 +44,13 @@ html, body {
                 .name {
                     display: inline-block;
                     margin-left: 0.3em;
-                    font-size: 1.3em;
+                    font-size: 1.1em;
                     font-weight: bolder;
                     text-align: left;
                     line-height: 1.1em;
                     
                     @media all and (min-width: $medium-screen-up) {
                         margin-left: 0.3em;
-                        font-size: 1.1em;
                     }
                 }
             }

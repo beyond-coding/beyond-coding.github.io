@@ -14,7 +14,13 @@ section {
 
 	.background {
 		position: absolute;
-		@include transition-background( '../img/coding.jpg', 60s);
+		@include transition-background( '../img/coding-small.jpg', 60s);
+		@media all and (min-width: $medium-screen-up) {
+			@include transition-background( '../img/coding-medium.jpg', 60s);
+		}
+		@media all and (min-width: $large-screen-up) {
+			@include transition-background( '../img/coding-hd.jpg', 60s);
+		}
 		z-index: 0;
 
 		&.scale {

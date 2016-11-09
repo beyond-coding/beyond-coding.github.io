@@ -2,46 +2,247 @@
    ========================================================================== */
 /* 2. Global
    ========================================================================== */
-@font-face {
-  font-family: 'helvetica';
-  src: url("../fonts/helvetica.eot");
-  src: url("../fonts/helvetica.eot?#iefix") format("embedded-opentype"), url("../fonts/helvetica.woff") format("woff"), url("../fonts/helvetica.ttf") format("truetype"), url("../fonts/helvetica.svg#HelveticaLTStdRoman") format("svg");
-  font-weight: normal;
-  font-style: normal; }
-html, body {
-  color: white;
-  background-color: #10181a; }
+/* Overlay style */
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(94, 184, 184, 0.95);
+  z-index: 100; }
 
-.brand .valign-wrapper {
-  height: 100vh; }
-  .brand .valign-wrapper .valign {
-    width: 100%; }
-    .brand .valign-wrapper .valign h1 .brackets {
-      font-family: "Helvetica"; }
-      .brand .valign-wrapper .valign h1 .brackets span {
-        position: relative;
-        bottom: 0.17em;
-        font-size: 5em;
-        letter-spacing: -40px; }
+/* Overlay closing cross */
+.overlay .overlay-close {
+  position: absolute;
+  right: 80px;
+  top: 80px; }
+  @media all and (min-width: 993px) {
+    .overlay .overlay-close {
+      right: 40px;
+      top: 40px; } }
+
+/* Menu style */
+.overlay nav {
+  text-align: center;
+  position: relative;
+  top: 50%;
+  height: 60%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%); }
+
+.overlay ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
+  display: inline-block;
+  height: 100%;
+  position: relative; }
+
+.overlay ul li {
+  display: block;
+  height: 20%;
+  height: calc(100% / 5);
+  min-height: 54px;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden; }
+
+.overlay ul li a {
+  font-size: 6em;
+  font-weight: 300;
+  display: block;
+  color: #fff;
+  -webkit-transition: color 0.2s;
+  transition: color 0.2s; }
+  @media all and (min-width: 993px) {
+    .overlay ul li a {
+      font-size: 4em;
+      font-weight: 100; } }
+
+.overlay ul li a:hover,
+.overlay ul li a:focus {
+  color: #f0f0f0; }
+
+/* Effects */
+html, body {
+  overflow-x: hidden; }
+
+.container {
+  overflow-x: hidden;
+  -webkit-transition: -webkit-transform 0.5s;
+  transition: transform 0.5s; }
+
+.container.overlay-open {
+  -webkit-transform: translateX(50%);
+  transform: translateX(50%); }
+
+.container::after {
+  content: '';
+  opacity: 0;
+  visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  -webkit-transition: opacity 0.5s, visibility 0s 0.5s;
+  transition: opacity 0.5s, visibility 0s 0.5s; }
+
+.container.overlay-open::after {
+  visibility: visible;
+  opacity: 1;
+  -webkit-transition: opacity 0.5s;
+  transition: opacity 0.5s; }
+
+.overlay-contentpush {
+  visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-transform: translateX(-100%);
+  transform: translateX(-100%);
+  -webkit-transition: -webkit-transform 0.5s, visibility 0s 0.5s;
+  transition: transform 0.5s, visibility 0s 0.5s; }
+
+.overlay-contentpush.open {
+  visibility: visible;
+  -webkit-transform: translateX(0%);
+  transform: translateX(0%);
+  -webkit-transition: -webkit-transform 0.5s;
+  transition: transform 0.5s; }
+
+@media screen and (max-height: 30.5em) {
+  .overlay nav {
+    height: 70%;
+    font-size: 34px; }
+
+  .overlay ul li {
+    min-height: 34px; } }
+section {
+  width: 100%;
+  height: 100vh;
+  min-height: 100vh;
+  position: relative; }
+
+#engagement {
+  color: white;
+  overflow: hidden; }
+  #engagement .background {
+    position: absolute;
+    background: url("../img/coding.jpg") no-repeat left center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    transition: all 60s ease;
+    -moz-transition: all 60s ease;
+    -ms-transition: all 60s ease;
+    -webkit-transition: all 60s ease;
+    -o-transition: all 60s ease;
+    z-index: 0; }
+    #engagement .background.scale {
+      transform: scale(1.6);
+      -moz-transform: scale(1.6);
+      -webkit-transform: scale(1.6);
+      -o-transform: scale(1.6);
+      -ms-transform: scale(1.6);
+      /* IE 9 */
+      -ms-filter: "progid:DXImageTransform.Microsoft.Matrix(M11=$amount, M12=0, M21=0, M22=$amount, SizingMethod='auto expand')";
+      /* IE8 */
+      filter: progid:DXImageTransform.Microsoft.Matrix(M11=$amount, M12=0, M21=0, M22=$amount, SizingMethod='auto expand');
+      /* IE6 and 7 */ }
+  #engagement .dark-layer {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: 1; }
+  #engagement article,
+  #engagement header {
+    padding: 80px;
+    z-index: 2; }
+    @media all and (min-width: 993px) {
+      #engagement article,
+      #engagement header {
+        padding: 40px; } }
+  #engagement header {
+    position: relative; }
+    #engagement header nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start; }
+      #engagement header nav #logo img {
+        height: 80px; }
         @media all and (min-width: 993px) {
-          .brand .valign-wrapper .valign h1 .brackets span {
-            bottom: 0.14em;
-            font-size: 3em;
-            letter-spacing: -30px; } }
-        .brand .valign-wrapper .valign h1 .brackets span:nth-child(even) {
-          bottom: 0.4em;
-          color: #5eb8b8; }
-    .brand .valign-wrapper .valign h1 .name {
-      display: inline-block;
-      margin-left: 0.3em;
-      font-size: 1.1em;
-      font-weight: bolder;
-      text-align: left;
-      line-height: 1.1em; }
+          #engagement header nav #logo img {
+            height: 40px; } }
+  #engagement article {
+    position: absolute;
+    bottom: 0;
+    width: 100%; }
+    @media all and (min-width: 993px) {
+      #engagement article {
+        padding-left: 50vw; } }
+    #engagement article h1,
+    #engagement article h2,
+    #engagement article strong {
+      font-weight: 100; }
+    #engagement article h2 {
+      font-size: 4.7em; }
       @media all and (min-width: 993px) {
-        .brand .valign-wrapper .valign h1 .name {
-          margin-left: 0.3em; } }
+        #engagement article h2 {
+          font-size: 2.5em; } }
+    #engagement article h1 {
+      margin-top: 4vh;
+      margin-bottom: 12vh;
+      font-size: 12.6em;
+      font-weight: 100; }
+      @media all and (min-width: 993px) {
+        #engagement article h1 {
+          margin-top: 2vh;
+          margin-bottom: 12vh;
+          font-size: 6em; } }
+      #engagement article h1 strong {
+        color: #5eb8b8;
+        display: inline-block;
+        animation-duration: 0.75s;
+        -webkit-animation-duration: 0.5s;
+        animation-delay: 2s;
+        -webkit-animation-delay: 1.75s; }
+    #engagement article p {
+      margin: 0 0 7vh 0;
+      font-size: 4.4em;
+      font-weight: 300;
+      text-align: center; }
+      @media all and (min-width: 993px) {
+        #engagement article p {
+          margin: 0 0 18vh 0;
+          font-size: 1.6em;
+          text-align: left; } }
+      #engagement article p a {
+        color: white;
+        display: inline-block;
+        padding: 0.6em 1.2em;
+        border: 6px solid #5eb8b8; }
+        @media all and (min-width: 993px) {
+          #engagement article p a {
+            border: 2px solid #5eb8b8; } }
+        #engagement article p a:hover {
+          color: white;
+          background: #5eb8b8; }
+
+.menu {
+  background: transparent;
+  border: none;
+  outline: none; }
+  .menu:active {
+    background: transparent; }
+  .menu .material-icons {
+    font-size: 5.6em;
+    color: white; }
+    @media all and (min-width: 993px) {
+      .menu .material-icons {
+        font-size: 3.1em; } }
 
 @media all and (min-width: 993px) {
   .mobile-only {
-    display: none; } }
+    display: none !important; } }

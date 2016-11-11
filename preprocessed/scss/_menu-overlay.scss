@@ -5,8 +5,8 @@
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background: rgba(94,184,184,0.95);
-	z-index: 100;
+	background: rgba(94,184,184,1);
+	z-index: 20;
 }
 
 /* Overlay closing cross */
@@ -16,6 +16,19 @@
 	top: $header-margin-mobile;
 	@media all and (min-width: $medium-screen-up) {
 		right: $header-margin;
+		top: $header-margin;
+	}
+	.material-icons {
+		color: white;
+	}
+}
+
+.overlay .logo {
+	position: absolute;
+	left: $header-margin-mobile;
+	top: $header-margin-mobile;
+	@media all and (min-width: $medium-screen-up) {
+		left: $header-margin;
 		top: $header-margin;
 	}
 }
@@ -49,7 +62,7 @@
 }
 
 .overlay ul li a {
-	font-size: 6em;
+	font-size: 7em;
 	font-weight: 300;
 	display: block;
 	color: #fff;

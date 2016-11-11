@@ -3,60 +3,28 @@
 
 <head>
     <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Beyond Coding</title>
-    <meta name="description" content="Beyond Coding - Expert programming courses">
-    <meta name="author" content="Guillermo Herrero">
-    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" href="css/animate.min.css">
-    <link rel="stylesheet" href="css/materialize.min.css">
-    <link rel="stylesheet" href="css/style.min.css">
-    <!--[if lt IE 9]>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
-    <![endif]-->
+    <meta name="description" content="Beyond Coding - Trainings, Clean Code, Java 8, Spring Boot, Continuous Deployment, Microservices" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+
+    <!-- Place favicon.ico and apple-touch-icon(s) in the root directory -->
+
 </head>
 
 <body>
 
-    <div class="menu-overlay-container">
-
-        <section id="engagement">
-            <div class="background"></div>
-            <div class="dark-layer"></div>
-            <header>
-                <nav>
-                    <a id="logo" href="."><img src="img/logo-white.png" alt="Beyond Coding Logo" /></a>
-                    <button id="trigger-overlay" type="button" href="#" class="menu"><i class="material-icons">menu</i></button>
-                </nav>
-            </header>
-            <article>
-                <h2>take your development team</h2>
-                <h1>beyond <br class="mobile-only">
-                  <strong>productive</strong>
-                  <strong>efficient</strong>
-                  <strong>coding</strong>
-                </h1>
-                <p><a href="">see the trainings</a></p>
-            </article>
-        </section>
-
-    </div>
-
-    <div class="overlay overlay-contentpush">
-        <button type="button" class="menu overlay-close"><i class="material-icons">close</i></button>
-        <nav>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Trainings</a></li>
-                <li><a href="#">Prices</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </nav>
-    </div>
-
     <script type="application/javascript" src="js/jquery-3.1.1.min.js"></script>
-    <script type="application/javascript" src="js/materialize.min.js"></script>
-    <script type="application/javascript" src="js/script.min.js"></script>
+    <script>
+        var languageRedirection = 'en';
+        // var browserLanguage = navigator.language || navigator.userLanguage;
+        // var language = browserLanguage.split('-')[0];
+        // if(language.toUpperCase() === 'EN'){
+        //    languageRedirection = 'en';
+        // }
+        var urlBase = location.href.substring(0, location.href.lastIndexOf("/") + 1);
+        window.location = urlBase + languageRedirection + '/.';
+    </script>
 
 </body>
 

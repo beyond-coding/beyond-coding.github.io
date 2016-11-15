@@ -1,0 +1,20 @@
+---
+layout: content
+---
+
+<h3>Trainings</h3>
+<p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+</p>
+
+<div class="trainings">
+  {% assign trainings=site.data.trainings[page.lang] %}
+  {% for training in trainings %}
+    <div class="training">
+        <div class="logo"><i class="material-icons">{{training.icon}}</i></div>
+        <h4>{{training.title}}</h4>
+        <p>{{training.description}}</p>
+    </div>
+  {% endfor %}
+
+</div>

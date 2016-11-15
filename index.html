@@ -1,3 +1,6 @@
+---
+---
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -14,14 +17,17 @@
 
 <body>
 
-    <script type="application/javascript" src="js/jquery-3.1.1.min.js"></script>
+    <script type="application/javascript" src="{{site.baseurl}}/js/vendor/jquery-3.1.1.min.js"></script>
     <script>
         var languageRedirection = 'en';
-        // var browserLanguage = navigator.language || navigator.userLanguage;
-        // var language = browserLanguage.split('-')[0];
-        // if(language.toUpperCase() === 'EN'){
-        //    languageRedirection = 'en';
-        // }
+        var browserLanguage = navigator.language || navigator.userLanguage;
+        var supportedLanguages = [ "en", "de", "es" ];
+        $.each( supportedLanguages, function( index, value ){
+          var language = browserLanguage.split('-')[0];
+          if(language.toLowerCase() === value){
+            languageRedirection = value;
+          }
+        });
         var urlBase = location.href.substring(0, location.href.lastIndexOf("/") + 1);
         window.location = urlBase + languageRedirection + '/.';
     </script>

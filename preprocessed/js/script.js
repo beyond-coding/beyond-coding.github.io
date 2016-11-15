@@ -1,6 +1,0 @@
-// @koala-prepend "analytics.js"
-// @koala-prepend "modernizr.custom.js"
-// @koala-prepend "classie.js"
-// @koala-prepend "animsition.js"
-// @koala-prepend "menu-overlay.js"
-// @koala-prepend "main.js"

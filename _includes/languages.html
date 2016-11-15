@@ -1,0 +1,5 @@
+<ul class="languages">
+    {% assign language_pages=site.pages | where:'ref', page.ref | sort: 'lang' %} {% for language_page in language_pages %} {% if language_page.lang != page.lang %}
+    <li><a href="{{ language_page.permalink | prepend: site.baseurl }}" class="animsition-link">{{ site.data.languages[language_page.lang].title }}</a></li>
+    {% endif %} {% endfor %}
+</ul>

@@ -1,1 +1,4 @@
-baseurl : /beyond-coding.github.io
+baseurl: /beyondcoding
+include: ['_pages']
+exclude: ['README.md']
+# permalink: pretty

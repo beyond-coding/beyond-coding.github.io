@@ -1,0 +1,10 @@
+<header>
+    <div class="navigation">
+        <a href="{{ site.baseurl }}/{{ page.lang }}/" class="logo animsition-link"><img src="/img/{{include.logo}}" alt="Beyond Coding Logo" /></a>
+        <button id="trigger-overlay" type="button"><i class="material-icons">menu</i></button>
+        <nav>
+            {% include nav-pages.html %}
+        </nav>
+    </div>
+    <div class="line-wrapper"><div class="{{include.line}}"></div></div>
+</header>

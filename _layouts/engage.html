@@ -1,0 +1,28 @@
+---
+layout: default
+---
+
+<div class="animsition" data-animsition-in-class="fade-in" data-animsition-out-class="fade-out">
+    <div class="menu-overlay-container">
+
+        <div class="engage">
+            <div class="background"></div>
+            <div class="dark-layer"></div>
+            <div class="container">
+                <section class="section">
+
+                    {% include nav.html logo='logo-white.png' %}
+
+                    <article>
+                        {{content}}
+                    </article>
+
+                </section>
+            </div>
+        </div>
+
+    </div>
+
+    {% include menu.html %}
+
+</div>

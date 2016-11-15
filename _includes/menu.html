@@ -1,0 +1,20 @@
+<div class="overlay overlay-contentpush">
+    <div class="container">
+        <div class="section">
+            <div class="navigation">
+                <a href="{{ site.baseurl }}/{{ page.lang }}/" class="logo animsition-link"><img src="/img/logo-white.png" alt="Beyond Coding Logo" /></a>
+                <button type="button" class="overlay-close"><i class="material-icons">close</i></button>
+            </div>
+            <div class="valign-wrapper">
+                <nav class="valign">
+                    {% include nav-pages.html %}
+                    <ul class="other">
+                        {% assign legal=site.data.pages[page.lang] | where:'ref', 'legal' %}
+                        <li><a href="{{ legal[0].url | prepend: site.baseurl }}" class="animsition-link">{{ legal[0].title }}</a></li>
+                    </ul>
+                    {% include languages.html %}
+                </nav>
+            </div>
+        </div>
+    </div>
+</div>

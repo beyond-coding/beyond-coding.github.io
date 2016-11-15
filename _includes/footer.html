@@ -1,0 +1,22 @@
+<footer class="{{include.class}}">
+  <div class="container">
+    <section class="section">
+
+      <!-- <a href="{{ site.baseurl }}/{{ page.lang }}/" class="logo animsition-link"><img src="/img/logo-white.png" alt="Beyond Coding Logo" /></a> -->
+
+      <div class="row">
+        <div class="col s12 m6">
+          {% assign legal=site.data.pages[page.lang] | where:'ref', 'legal' %}
+          <p>
+            © 2017 Beyond Coding.<br class="mobile-only" /> All rights reserved.
+            <a href="{{ legal[0].url | prepend: site.baseurl }}" class="animsition-link">{{ legal[0].title }}</a>
+          </p>
+        </div>
+        <div class="col s12 m6">
+          {% include languages.html %}
+        </div>
+      </div>
+
+    </section>
+  </div>
+</footer>

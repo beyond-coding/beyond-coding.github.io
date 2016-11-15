@@ -1,0 +1,51 @@
+en:
+  - ref: home
+    title: home
+    url: /en/
+    show-navigation: false
+  - ref: advantages
+    title: advantages
+    url: /en/advantages/
+    show-navigation: true
+  - ref: trainings
+    title: trainings
+    url: /en/trainings/
+    show-navigation: true
+  - ref: prices
+    title: prices
+    url: /en/prices/
+    show-navigation: true
+  - ref: contact
+    title: contact
+    url: /en/contact/
+    show-navigation: true
+  - ref: legal
+    title: legal
+    url: /en/legal/
+    show-navigation: false
+
+de:
+  - ref: home
+    title: Home
+    url: /de/
+    show-navigation: false
+  - ref: advantages
+    title: Vorteile
+    url: /de/vorteile/
+    show-navigation: true
+  - ref: trainings
+    title: Trainings
+    url: /de/trainings/
+    show-navigation: true
+  - ref: prices
+    title: Preise
+    url: /de/preise/
+    show-navigation: true
+  - ref: contact
+    title: Kontakt
+    url: /de/kontakt/
+    show-navigation: true
+  - ref: legal
+    title: Impressum
+    url: /de/impressum/
+    show-navigation: false

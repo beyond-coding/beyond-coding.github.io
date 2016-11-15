@@ -1,4 +1,4 @@
-baseurl: /beyondcoding
+# baseurl: /beyondcoding
 include: ['_pages']
 exclude: ['README.md']
 # permalink: pretty

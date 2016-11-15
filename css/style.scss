@@ -2,4 +2,19 @@
 ---
 @charset "utf-8";
 
-@import "variables", "normalize", "fonts", "grid", "global", "mixins", "menu-overlay", "navigation", "base", "engage";
+@import
+"variables",
+"normalize",
+"vendor/animate.min",
+"vendor/animsition.min",
+"vendor/font-awesome.min",
+"vendor/slick",
+"vendor/slick-theme",
+"fonts",
+"grid",
+"global",
+"mixins",
+"menu-overlay",
+"navigation",
+"base",
+"engage";

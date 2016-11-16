@@ -1,3 +1,33 @@
 ---
 layout: content
 ---
+
+<h3>{{site.data.text[page.lang]advantages.title}}</h3>
+<p>
+  {{site.data.text[page.lang]advantages.description}}
+</p>
+
+<div class="advantages">
+  <div class="row">
+    {% assign advantages=site.data.text[page.lang]advantages.advantage %}
+    {% for advantage in advantages %}
+      <div class="col s12 l4">
+        <div class="advantage">
+          <div class="logo"><i class="{{advantage.logo}}" aria-hidden="true"></i></div>
+          <h4>{{advantage.title}}</h4>
+          <p>{{advantage.description}}
+          </p>
+        </div>
+        <p>
+            {{site.data.text[page.lang]advantages.related-trainings}}
+            {% for training in advantage.related-trainings %}
+              <a href="{{ training.url | prepend: site.baseurl }}">{{ training.name }}</a>
+              {% if forloop.last == false %}
+                , 
+              {% endif %}
+            {% endfor %}
+        </p>
+      </div>
+    {% endfor %}
+  </div>
+</div>

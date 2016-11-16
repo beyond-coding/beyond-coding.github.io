@@ -2,11 +2,83 @@ en:
   home:
     engage: Take your development team
     seetrainings: see the trainings
+  advantages:
+    title: Advantages
+    description: Technology improves itself constantly. What we could hardly achieve back in the day within two months, we need it now done in two days.<br /> Beyond Coding programming trainings will bring your company's software development up to a speed that others simply cannot follow. Our essential trainings are entirely focused on increasing the productivity, the efficiency and the speed of your development team.
+    related-trainings: Related trainings
+    advantage:
+      - title: Boost Team Efficiency
+        logo: fa fa-users
+        description: Writing understandable and clean code that follows design principles ensures maintanibility as well as a faster and more transparent communication between team developers. No more time lost trying to figure out what others coded.
+        related-trainings:
+          - name: Clean Code
+            url: /en/trainings
+          - name: Power Coding
+            url: /en/trainings
+      - title: Increase Development Productivity
+        logo: fa fa-line-chart
+        description: Focus on your business logic only. Take advantage of the latest features of your programming language while increasing the security and development speed of your projects with professional, robust and fully tested open source frameworks and tools.
+        related-trainings:
+          - name: Java 8
+            url: /en/trainings
+          - name: Spring Boot
+            url: /en/trainings
+      - title: Endure Scaling
+        logo: fa fa-cubes
+        description: Your company grows, your development team grows and suddenly you need weeks to get anything done. Avoid this by decreasing the complexity of your project architecture and its release structure. Get ready for success by succeeding from the very beginning.
+        related-trainings:
+          - name: Continuous Deployment
+            url: /en/trainings
+          - name: Microservices
+            url: /en/trainings
+  trainings:
+    title: Trainings
+    description: Your development team doesn't need to freeze its productivity for several weeks in order to learn the new material. Our essential trainigs are focused and concise. Within few hours your developers receive dedicated presentations and learn to the detail by example. No need to move somewhere else. Instead, Beyond Coding moves to you.
+    topics: Topics
+  prices:
+    title: Prices
+    description: Our essential trainings are planed for groups of up to four developers in order to guarantee their learning process within the estimated duration. Trainings for bigger groups have an additional cost since since they require more personalised attention and can extend the duration of the training.
   contact:
     subject: Let's get in touch
 de:
   home:
     engage: Nehm dein Development-Team
     seetrainings: Trainings anschauen
+  advantages:
+    title: Vorteile
+    description: Technology improves itself constantly. What we could hardly achieve back in the day within two months, we need it now done in two days.<br /> Beyond Coding programming trainings will bring your company's software development up to a speed that others simply cannot follow. Our essential trainings are entirely focused on increasing the productivity, the efficiency and the speed of your development team.
+    related-trainings: Related trainings
+    advantage:
+      - title: Boost Team Efficiency
+        logo: fa fa-users
+        description: Writing understandable and clean code that follows design principles ensures maintanibility as well as a faster and more transparent communication between team developers. No more time lost trying to figure out what others coded.
+        related-trainings:
+          - name: Clean Code
+            url: /en/trainings
+          - name: Power Coding
+            url: /en/trainings
+      - title: Increase Development Productivity
+        logo: fa fa-line-chart
+        description: Focus on your business logic only. Take advantage of the latest features of your programming language while increasing the security and development speed of your projects with professional, robust and fully tested open source frameworks and tools.
+        related-trainings:
+          - name: Java 8
+            url: /en/trainings
+          - name: Spring Boot
+            url: /en/trainings
+      - title: Endure Scaling
+        logo: fa fa-cubes
+        description: Your company grows, your development team grows and suddenly you need weeks to get anything done. Avoid this by decreasing the complexity of your project architecture and its release structure. Get ready for success by succeeding from the very beginning.
+        related-trainings:
+          - name: Continuous Deployment
+            url: /en/trainings
+          - name: Microservices
+            url: /en/trainings
+  trainings:
+    title: Trainings
+    description: Your development team doesn't need to freeze its productivity for several weeks in order to learn the new material. Our essential trainigs are focused and concise. Within few hours your developers receive dedicated presentations and learn to the detail by example. No need to move somewhere else. Instead, Beyond Coding moves to you.
+    topics: Themen
+  prices:
+    title: Prices
+    description: Our essential trainings are planed for groups of up to four developers in order to guarantee their learning process within the estimated duration. Trainings for bigger groups have an additional cost since since they require more personalised attention and can extend the duration of the training.
   contact:
     subject: Lass uns zusammen sprechen

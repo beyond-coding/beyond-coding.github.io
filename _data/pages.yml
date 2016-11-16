@@ -20,7 +20,7 @@ en:
     url: /en/contact/
     show-navigation: true
   - ref: legal
-    title: legal notice
+    title: legal notice    
     url: /en/legal/
     show-navigation: false
 

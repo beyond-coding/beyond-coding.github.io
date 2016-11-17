@@ -4,7 +4,7 @@ en:
     description: Understandable and structured code improves maintanibility, code review processes and team productivity. No more time wasted decrypting your team's code.
     topics: Clean code practices
   - title: Power Coding
-    icon: ev_station
+    icon: code
     description: Apply the best development design principles to create best quality test-driven code. Increase your project's speed, decrease its complexity, avoid bugs.
     topics: Design principles, Eclipse shortcuts, Productivity tools
   - title: Java 8
@@ -30,7 +30,7 @@ de:
     description: Understandable and structured code improves maintanibility, code review processes and team productivity. No more time wasted decrypting your team's code.
     topics: Clean code practices
   - title: Power Coding
-    icon: ev_station
+    icon: code
     description: Apply the best development design principles to create best quality test-driven code. Increase your project's speed, decrease its complexity, avoid bugs.
     topics: Design principles, Eclipse shortcuts, Productivity tools
   - title: Java 8

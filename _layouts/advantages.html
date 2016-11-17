@@ -21,7 +21,7 @@ layout: content
         <p>
             {{site.data.text[page.lang].advantages.related-trainings}}
             {% for training in advantage.related-trainings %}
-              <a href="{{ training.url | prepend: site.baseurl }}">{{ training.name }}</a>
+              <a href="{{ training.url | prepend: site.baseurl }}" class="animsition-link">{{ training.name }}</a>
               {% if forloop.last == false %}
                 ,
               {% endif %}

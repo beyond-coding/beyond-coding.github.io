@@ -21,11 +21,15 @@ article {
     h3 {
         margin: 1rem 0;
         font-size: 2em;
-        font-weight: 100;
+        font-weight: 300;
         color: $primary-color;
         @media #{$medium-and-up} {
             margin: 2rem 0;
         }
+    }
+
+    p {
+      text-align: justify;
     }
 }
 
@@ -47,7 +51,11 @@ article {
     h4 {
         margin: 0.5rem 0 0 0;
         font-size: 1.2em;
-        font-weight: 300;
+        font-weight: 400;
+    }
+
+    p {
+      text-align: center;
     }
 
   }
@@ -85,7 +93,11 @@ article {
         h4 {
             margin: 0.5rem 0 0;
             font-size: 1.3em;
-            font-weight: 300;
+            font-weight: 400;
+        }
+
+        p {
+          text-align: center;
         }
 
         .topics {

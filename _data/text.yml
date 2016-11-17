@@ -39,11 +39,11 @@ en:
     title: Prices
     description: Our essential trainings are planed for groups of up to four developers in order to guarantee their learning process within the estimated duration. Trainings for bigger groups have an additional cost since they require more personalised attention and can extend the duration of the training.
   contact:
-    subject: Let's get in touch
+    subject: Let's talk
 de:
   home:
-    engage: Nehm dein Development-Team
-    seetrainings: Trainings anschauen
+    engage: Nimm dein Development-Team
+    seetrainings: zur den Trainings
   advantages:
     title: Vorteile
     description: Technology improves itself constantly. What we could hardly achieve back in the day within two months, we need it now done in two days.<br /> Beyond Coding programming trainings will bring your company's software development up to a speed that others simply cannot follow. Our essential trainings are entirely focused on increasing the productivity, the efficiency and the speed of your development team.
@@ -81,4 +81,4 @@ de:
     title: Prices
     description: Our essential trainings are planed for groups of up to four developers in order to guarantee their learning process within the estimated duration. Trainings for bigger groups have an additional cost since since they require more personalised attention and can extend the duration of the training.
   contact:
-    subject: Lass uns zusammen sprechen
+    subject: Anfrage

@@ -11,16 +11,12 @@ en:
     title: trainings
     url: /en/trainings/
     show-navigation: true
-  - ref: prices
-    title: prices
-    url: /en/prices/
-    show-navigation: true
   - ref: contact
     title: contact
     url: /en/contact/
     show-navigation: true
   - ref: legal
-    title: legal notice    
+    title: legal notice
     url: /en/legal/
     show-navigation: false
 
@@ -36,10 +32,6 @@ de:
   - ref: trainings
     title: Trainings
     url: /de/trainings/
-    show-navigation: true
-  - ref: prices
-    title: Preise
-    url: /de/preise/
     show-navigation: true
   - ref: contact
     title: Kontakt

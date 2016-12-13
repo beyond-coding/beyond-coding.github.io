@@ -7,9 +7,10 @@ layout: default
 
     <div class="top-line"></div>
     <div class="container">
-      <section class="section">
+      
+      {% include nav.html logo='logo.png' line='line' %}
 
-        {% include nav.html logo='logo.png' line='line' %}
+      <section>
 
         <article>
             {{content}}

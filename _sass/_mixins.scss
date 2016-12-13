@@ -41,3 +41,11 @@
   -ms-filter: "progid:DXImageTransform.Microsoft.Matrix(M11=$amount, M12=0, M21=0, M22=$amount, SizingMethod='auto expand')"; /* IE8 */
    filter: progid:DXImageTransform.Microsoft.Matrix(M11=$amount, M12=0, M21=0, M22=$amount, SizingMethod='auto expand'); /* IE6 and 7 */
 }
+
+@mixin transition($property, $speed, $effect){
+  -webkit-transition: $property $speed $effect;
+  -moz-transition: $property $speed $effect;
+  -o-transition: $property $speed $effect;
+  -ms-transition: $property $speed $effect;
+  transition: $property $speed $effect;
+}

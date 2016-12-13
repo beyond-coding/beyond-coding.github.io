@@ -9,7 +9,7 @@ layout: default
             <div class="background"></div>
             <div class="dark-layer"></div>
             <div class="container">
-                <section class="section">
+                <section>
 
                     {% include nav.html logo='logo-white.png' %}
 
@@ -17,10 +17,11 @@ layout: default
                         {{content}}
                     </article>
 
+
                 </section>
             </div>
+            {% include footer.html class='engage-footer' %}
         </div>
-
     </div>
 
     {% include menu.html %}

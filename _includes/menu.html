@@ -11,7 +11,7 @@
                   {% assign legal=site.data.pages[page.lang] | where:'ref', 'legal' %}
                   <li><a href="{{ legal[0].url | prepend: site.baseurl }}" class="animsition-link">{{ legal[0].title }}</a></li>
               </ul>
-              {% include languages.html %}
+              <!-- {% include languages.html %} -->
           </nav>
       </div>
     </div>

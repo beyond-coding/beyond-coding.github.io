@@ -1,7 +1,7 @@
 en:
   - title: Clean Code
     icon: wrap_text
-    description: Understandable and structured code improves maintanibility, code review processes and team productivity. No more time wasted decrypting your team's code.
+    description: Understandable and structured code improves maintainability, code review processes and team productivity. No more time wasted decrypting your team's code.
     topics: Clean code practices
   - title: Power Coding
     icon: code
@@ -27,7 +27,7 @@ en:
 de:
   - title: Clean Code
     icon: wrap_text
-    description: Understandable and structured code improves maintanibility, code review processes and team productivity. No more time wasted decrypting your team's code.
+    description: Understandable and structured code improves maintainability, code review processes and team productivity. No more time wasted decrypting your team's code.
     topics: Clean code practices
   - title: Power Coding
     icon: code

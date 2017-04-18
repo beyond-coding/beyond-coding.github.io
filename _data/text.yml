@@ -4,12 +4,12 @@ en:
     seetrainings: see the trainings
   advantages:
     title: Advantages
-    description: Technology improves itself constantly. What we could hardly achieve back in the day within two months, we need it now done in two days. Beyond Coding programming trainings will bring your company's software development up to a speed that others simply cannot follow. Our essential trainings are entirely focused on increasing the productivity, the efficiency and the speed of your development team.
+    description: At Beyond Coding we believe companies deserve to use the latest technologies. That's why we continuously challenge the current state of the art with the newest development innovations. With our essential trainings we will take your software development up to a speed that others simply cannot follow. Achieve much faster results and reduce maintainance costs.
     related-trainings: Related trainings
     advantage:
       - title: Boost Team Efficiency
         logo: fa fa-users
-        description: Writing understandable and clean code that follows design principles ensures maintanibility as well as a faster and more transparent communication between team developers. No more time lost trying to figure out what others coded.
+        description: Understandable and clean code that follows design principles ensures maintanibility, a faster development speed and a more transparent communication between team developers.
         related-trainings:
           - name: Clean Code
             url: /en/trainings
@@ -17,7 +17,7 @@ en:
             url: /en/trainings
       - title: Increase Development Productivity
         logo: fa fa-line-chart
-        description: Focus on your business logic only. Take advantage of the latest features of your programming language while increasing the security and development speed of your projects with professional, robust and fully tested open source frameworks and tools.
+        description: Take full advantage of your programming language and use professional, robust and fully tested open source frameworks in order to achieve results much faster and increase their security.
         related-trainings:
           - name: Java 8
             url: /en/trainings
@@ -25,7 +25,7 @@ en:
             url: /en/trainings
       - title: Endure Scaling
         logo: fa fa-cubes
-        description: Your company grows, your development team grows and suddenly you need weeks to get anything done. Avoid this by decreasing the complexity of your project architecture and its release structure. Get ready for success by succeeding from the very beginning.
+        description: Your company grows, your development team grows and suddenly you need weeks to get anything done. Avoid this by decreasing the complexity of your project architecture and its release structure.
         related-trainings:
           - name: Continuous Deployment
             url: /en/trainings

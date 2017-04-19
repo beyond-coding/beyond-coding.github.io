@@ -1,10 +1,10 @@
-en:
+trainingsen:
   home:
     engage: Take your development team
     seetrainings: see the trainings
   advantages:
     title: Advantages
-    description: At Beyond Coding we believe companies deserve to use the latest technologies. That's why we continuously challenge the current state of the art with the newest development innovations. With our essential trainings we will take your software development up to a speed that others simply cannot follow. Achieve much faster results and reduce maintainance costs.
+    description: At Beyond Coding we believe companies deserve to use the latest technologies. That's why we continuously challenge the current state of the art with the newest development innovations. With our essential trainings we will take your software development up to a speed that others simply cannot follow. Achieve much faster results and reduce maintenance costs.
     related-trainings: Related trainings
     advantage:
       - title: Boost Team Efficiency
@@ -33,7 +33,7 @@ en:
             url: /en/trainings
   trainings:
     title: Trainings
-    description: Your development team doesn't need to freeze its productivity for several weeks in order to learn the new material. Our essential trainigs are focused and concise. Within few hours your developers receive dedicated presentations and learn to the detail by example. No need to move somewhere else. Instead, Beyond Coding moves to you.
+    description: Your development team doesn't need to freeze its productivity for several weeks in order to learn the new material. Our essential trainings are focused and concise. Within few hours your developers receive dedicated presentations and learn to the detail by example. No need to move somewhere else. Instead, Beyond Coding moves to you.
     topics: Topics
   prices:
     title: Prices
@@ -87,7 +87,7 @@ de:
             url: /en/trainings
   trainings:
     title: Trainings
-    description: Your development team doesn't need to freeze its productivity for several weeks in order to learn the new material. Our essential trainigs are focused and concise. Within few hours your developers receive dedicated presentations and learn to the detail by example. No need to move somewhere else. Instead, Beyond Coding moves to you.
+    description: Your development team doesn't need to freeze its productivity for several weeks in order to learn the new material. Our essential trainings are focused and concise. Within few hours your developers receive dedicated presentations and learn to the detail by example. No need to move somewhere else. Instead, Beyond Coding moves to you.
     topics: Themen
   prices:
     title: Prices

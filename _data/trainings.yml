@@ -1,7 +1,7 @@
 en:
   - title: Clean Code
     icon: wrap_text
-    description: Understandable and structured code increases team productivity and reduces maintainance costs.
+    description: Understandable and structured code increases team productivity and reduces maintenance costs.
     topics: Clean code practices, Test-Driven development
   - title: Power Coding
     icon: code

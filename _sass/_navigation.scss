@@ -97,6 +97,7 @@ footer {
     }
 
     &.content {
+      min-height: 18vh;
       background-color: $primary-color;
       -moz-box-shadow: inset 0 10px 10px -10px #333;
       -webkit-box-shadow: inset 0 10px 10px -10px #333;

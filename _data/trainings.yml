@@ -27,25 +27,25 @@ en:
 de:
   - title: Clean Code
     icon: wrap_text
-    description: Understandable and structured code improves maintainability, code review processes and team productivity. No more time wasted decrypting your team's code.
-    topics: Clean code practices
+    description: Verständlicher und strukturierter Code erhöht die Produktivität des Teams und reduziert die Wartungskosten.
+    topics: Clean code Praxis, Test-Driven Entwicklung
   - title: Power Coding
     icon: code
-    description: Apply the best development design principles to create best quality test-driven code. Increase your project's speed, decrease its complexity, avoid bugs.
-    topics: Design principles, Eclipse shortcuts, Productivity tools
+    description: Design-Prinzipien und Patterns, um den besten Qualitätscode zu schaffen. Erreiche deine Ziele schneller und vermeide Bugs.
+    topics: Design-Prinzipien, Design-Patterns.
   - title: Java 8
     icon: free_breakfast
-    description: Put into practice the latest Java 8 features. Write more secure, robust, understandable and reliable code. No more loops, no more time related bugs.
+    description: Die neuesten Features von Java 8 erhöhen Ihre Sicherheit, Flexibilität und Entwicklungsgeschwindigkeit.
     topics: Streams, Lambda expressions, Function composition, LocalDateTime
   - title: Spring Boot
     icon: layers
-    description: Don't waste time developing what's already there. Focus on your company projects and let Spring Boot's secure and reliable open source code do the rest.
-    topics: Spring Boot, Spring Data, Rest, Thymeleaf
+    description: Spring Boot ist ein sicheres und zuverlässiges Open Source Framework. Erreichen Sie Ihre Ziele blitzschnell und sichern Sie sie mit der stärksten Sicherheit.
+    topics: Spring Boot, Data, Security, Rest, Thymeleaf
   - title: Continuous Deployment
     icon: all_inclusive
-    description: Countless developing hours are lost in testing and making your code live. Do it all automatically with just one click combining a set of professional tools.
-    topics: Spring Boot, Docker, GitHub, Snap-CI, DockerHub, Rancher
+    description: Sparen Sie unzählige Stunden der Test- und Go-Live-Prozesse. Kombinieren Sie eine Reihe von professionellen Tools Machen Sie alles automatisch mit nur einem Klick.
+    topics: Spring Boot, Docker, GitHub, Circle-CI, DockerHub, Rancher
   - title: Microservices
     icon: cloud_circle
-    description: Get ready for your business growth. Prepare your system for scaling with an introduction to the microservices architecture with practical examples.
+    description: Machen Sie sich bereit für Ihr Geschäftswachstum. Bereiten Sie Ihr System für die Skalierung mit einer Einführung in die Microservices Architektur mit praktischen Beispielen vor.
     topics: Spring Boot, Docker, Docker Compose

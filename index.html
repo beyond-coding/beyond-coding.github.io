@@ -8,7 +8,7 @@ layout: default
 <script>
   var languageRedirection = 'en';
   var browserLanguage = navigator.language || navigator.userLanguage;
-  var supportedLanguages = [ "en" ];
+  var supportedLanguages = [ "en", "de" ];
   $.each( supportedLanguages, function( index, value ){
     var language = browserLanguage.split('-')[0];
     if(language.toLowerCase() === value){

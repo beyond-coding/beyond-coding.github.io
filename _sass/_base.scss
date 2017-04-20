@@ -17,6 +17,9 @@ html {
 
 article {
     min-height: 73.7vh;
+    @media #{$medium-and-up} {
+        padding-bottom: 2rem;
+    }
 
     h3 {
         margin: 1rem 0;
@@ -38,7 +41,7 @@ article {
   text-align: left;
 
   .advantage {
-    min-height: 315px;
+    min-height: 335px;
     margin-bottom: 1rem;
     padding: 2.6rem 1rem 2rem 1rem;
     text-align: center;
@@ -209,6 +212,7 @@ article {
 .legal {
   p {
     font-size: 0.9em;
+    margin-bottom: 4rem;
     text-align: left;
 
     b {

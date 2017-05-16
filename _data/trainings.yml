@@ -27,11 +27,11 @@ en:
 de:
   - title: Clean Code
     icon: wrap_text
-    description: Verständlicher und strukturierter Code erhöht die Produktivität des Teams und reduziert die Wartungskosten.
-    topics: Clean code Praxis, Test-Driven Entwicklung
+    description: Verständlicher und strukturierter Code erhöht die Produktivität des Teams und reduziert gleichzeitig die Wartungskosten.
+    topics: Clean code Praxis, Test-Driven development
   - title: Power Coding
     icon: code
-    description: Design-Prinzipien und Patterns, um den besten Qualitätscode zu schaffen. Erreiche deine Ziele schneller und vermeide Bugs.
+    description: Design-Prinzipien und Patterns, um den besten Qualitätscode zu schaffen. Erreichen Sie Ihre Ziele schneller und vermeiden Sie Bugs.
     topics: Design-Prinzipien, Design-Patterns.
   - title: Java 8
     icon: free_breakfast
@@ -39,13 +39,13 @@ de:
     topics: Streams, Lambda expressions, Function composition, LocalDateTime
   - title: Spring Boot
     icon: layers
-    description: Spring Boot ist ein sicheres und zuverlässiges Open Source Framework. Erreichen Sie Ihre Ziele blitzschnell und sichern Sie sie mit der stärksten Sicherheit.
+    description: Spring Boot ist ein sicheres und zuverlässiges Open Source Framework. Erreichen Sie Ihre Ziele blitzschnell und schützen Sie diese mit den modernsten Sicherheitsmaßnahmen.
     topics: Spring Boot, Data, Security, Rest, Thymeleaf
   - title: Continuous Deployment
     icon: all_inclusive
-    description: Sparen Sie unzählige Stunden der Test- und Go-Live-Prozesse. Kombinieren Sie eine Reihe von professionellen Tools Machen Sie alles automatisch mit nur einem Klick.
+    description: Sparen Sie sich unzählige Stunden der Test- und Go-Live-Prozesse. Kombinieren Sie eine Reihe von professionellen Tools. Machen Sie alles automatisch mit nur einem Klick.
     topics: Spring Boot, Docker, GitHub, Circle-CI, DockerHub, Rancher
   - title: Microservices
     icon: cloud_circle
-    description: Machen Sie sich bereit für Ihr Geschäftswachstum. Bereiten Sie Ihr System für die Skalierung mit einer Einführung in die Microservices Architektur mit praktischen Beispielen vor.
+    description: Machen Sie sich bereit für Ihr Geschäftswachstum. Bereiten Sie Ihr System für die Zukunft vor mit einer Einführung in die Microservices Architektur.
     topics: Spring Boot, Docker, Docker Compose

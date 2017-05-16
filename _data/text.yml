@@ -25,7 +25,7 @@ en:
             url: /en/trainings
       - title: Endure Scaling
         logo: fa fa-cubes
-        description: Your company grows, your development team grows and suddenly you need weeks to get anything done. Avoid this by decreasing the complexity of your project architecture and its release structure.
+        description: Avoid production bottlenecks by decreasing the complexity of your project architecture and its release structure.
         related-trainings:
           - name: Continuous Deployment
             url: /en/trainings
@@ -54,16 +54,16 @@ en:
     tradedescription: <b>Trade description</b><br />Services in automatic data processing and information technology
 de:
   home:
-    engage: Nimm dein Development-Team
-    seetrainings: zur den Trainings
+    engage: Take your development team
+    seetrainings: zu den Trainings
   advantages:
     title: Vorteile
-    description: Bei Beyond Coding glauben wir, dass Unternehmen verdienen die neuesten Technologien zu nutzen. Deshalb fordern wir den aktuellen State of Art mit den neuesten Entwicklungsinnovationen kontinuierlich heraus. Mit unseren wesentlichen Trainings werden wir Ihre Software-Entwicklung bis zu einer Geschwindigkeit nehmen, die andere einfach nicht folgen können. Erzielen Sie viel schnellere Ergebnisse und reduzieren Sie die Wartungskosten.
+    description: Wir von Beyond Coding glauben, dass Unternehmen die neuesten Technologien  verdienen. Deshalb beschäftigen wir uns kontinuierlich mit den neusten Entwicklungsinnovationen und fordern den State of Art immer wieder heraus. Mit unseren Trainings werden wir Ihre Software-Entwicklung so weit beschleunigen, dass andere mit Ihren nicht mithalten können. Erzielen Sie viel schnellere Ergebnisse und reduzieren Sie gleichzeitig die Wartungskosten.
     related-trainings: Related trainings
     advantage:
       - title: Steigern Team Effizienz
         logo: fa fa-users
-        description: Verständlicher und sauberer Code, der den Designprinzipien folgt, sorgt für Wartungsfreundlichkeit, eine schnellere Entwicklungsgeschwindigkeit und eine transparentere Kommunikation zwischen den Teamentwicklern.
+        description: Verständlicher und sauberer Code sorgt für Wartungsfreundlichkeit, schnellere Entwicklungsgeschwindigkeit und transparentere Kommunikation.
         related-trainings:
           - name: Clean Code
             url: /en/trainings
@@ -71,7 +71,7 @@ de:
             url: /en/trainings
       - title: Produktivitätssteigerung erhöhen
         logo: fa fa-line-chart
-        description: Nutzen Sie Ihre Programmiersprache und nutzen Sie professionelle, robuste und vollständig getestete Open-Source-Frameworks, um die Ergebnisse schneller zu erzielen und ihre Sicherheit zu erhöhen.
+        description: Optimieren Sie die Nutzung Ihrer Programmiersprache. Verwenden Sie professionelle, robuste und vollständig getestete Open-Source-Frameworks, um Ergebnisse schneller zu erzielen und Ihre Sicherheit zu erhöhen.
         related-trainings:
           - name: Java 8
             url: /en/trainings
@@ -79,7 +79,7 @@ de:
             url: /en/trainings
       - title: Endure Scaling
         logo: fa fa-cubes
-        description: Ihr Unternehmen wächst, Ihr Entwicklungsteam wächst und plötzlich brauchen Sie Wochen, um etwas zu erledigen. Vermeiden Sie dies, indem Sie die Komplexität Ihrer Projektarchitektur und ihrer Release-Struktur verringern.
+        description: Vermeiden Sie Produktionsengpässe, indem Sie die Komplexität Ihrer Projektarchitektur und ihrer Release-Struktur verringern.
         related-trainings:
           - name: Continuous Deployment
             url: /en/trainings
@@ -87,7 +87,7 @@ de:
             url: /en/trainings
   trainings:
     title: Trainings
-    description: Ihr Entwicklungsteam braucht seine Produktivität für mehrere Wochen nicht einzufrieren, um das neue Material zu erlernen. Unsere wesentlichen Schulungen sind fokussiert und prägnant. Innerhalb weniger Stunden erhalten Ihre Entwickler gewidmet Präsentationen und lernen, das Detail durch Beispiel. Keine Notwendigkeit, irgendwo anders zu bewegen. Stattdessen bewegt sich Beyond Coding zu Ihnen.
+    description: Um das neue Material zu erlernen ist kein wochenlanger Produktionsstillstand nötig. Unsere Trainings sind fokussiert, prägnant und praxisorientiert. Beyond Coding kommt direkt zu Ihnen und fürt die Trainings binnen weniger Stunden vor Ort durch. Ihr Entwicklungsteam erhält auf die jeweilige Situation zugeschittene Präsentationen.
     topics: Themen
   prices:
     title: Prices

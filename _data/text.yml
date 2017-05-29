@@ -114,12 +114,12 @@ es:
     seetrainings: ver trainings
   advantages:
     title: Ventajas
-    description: En Beyond Coding creemos que las empresas merecen poder emplear las últimas tecnologías. Es por eso que desafiamos constantemente el estado del arte del desarrollo de software actual con las últimas innovaciones. Con nuestros trainings conseguirás alcanzar tus metas de desarrollo de software mucho más rápido y reducirás costes de mantenimiento.
+    description: En Beyond Coding creemos que las empresas merecen poder emplear las últimas tecnologías. Es por eso que desafiamos constantemente el estado actual del desarrollo de software con las últimas innovaciones. Con nuestros trainings conseguirás alcanzar tus metas de desarrollo de software mucho más rápido y reducirás costes de mantenimiento.
     related-trainings: Trainings relacionados
     advantage:
       - title: Incrementa la Eficiencia
         logo: fa fa-users
-        description: Código limpio y entendible que sigue principios de diseño asegura un cómodo mantenimiento, una rápida velocidad de desarrollo y una comunicación más transparente entre desarrolladores.
+        description: Un código limpio y entendible que sigue principios de diseño asegura un cómodo mantenimiento, una rápida velocidad de desarrollo y una comunicación más transparente entre desarrolladores.
         related-trainings:
           - name: Clean Code
             url: /es/trainings
@@ -143,7 +143,7 @@ es:
             url: /es/trainings
   trainings:
     title: Trainings
-    description: No es necesario congelar la productividad de tu equipo de desarrollo para aprender los últimos conocimientos. Nuestros trainings son intensivos y concisos. En el plazo de unas horas tu equipo de desarrollo recibe presentaciones personalizadas y aprenden hasta el último detalle con ejemplos prácticos. No es necesario desplazarse. En lugar de ello Beyond Coding viene a ti.
+    description: No es necesario congelar la productividad de tu equipo de desarrollo para aprender los últimos conocimientos. Nuestros trainings son intensivos y concisos. En el plazo de unas horas tu equipo de desarrollo recibirá presentaciones personalizadas y aprenderán hasta el último detalle con ejemplos prácticos. No es necesario desplazarse. En lugar de ello Beyond Coding viene a ti.
     topics: Temas
   prices:
     title: Prices

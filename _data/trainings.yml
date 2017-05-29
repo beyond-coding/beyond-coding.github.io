@@ -53,7 +53,7 @@ de:
 es:
   - title: Clean Code
     icon: wrap_text
-    description: Código estructurado y entendible incrementa la productividad del equipo de desarrollo y reduce costes de mantenimiento.
+    description: Un código estructurado y entendible incrementa la productividad del equipo de desarrollo y reduce costes de mantenimiento.
     topics: Código limpio, Desarrollo Test Driven
   - title: Power Coding
     icon: code

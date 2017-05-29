@@ -41,3 +41,25 @@ de:
     title: Impressum
     url: /de/impressum/
     show-navigation: false
+
+es:
+  - ref: home
+    title: inicio
+    url: /es/
+    show-navigation: false
+  - ref: advantages
+    title: Ventajas
+    url: /es/ventajas/
+    show-navigation: true
+  - ref: trainings
+    title: Trainings
+    url: /es/trainings/
+    show-navigation: true
+  - ref: Contacto
+    title: Contacto
+    url: /es/contacto/
+    show-navigation: true
+  - ref: legal
+    title: Legal
+    url: /es/legal/
+    show-navigation: false

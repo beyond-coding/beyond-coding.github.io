@@ -22,7 +22,7 @@ en:
   - title: Microservices
     icon: cloud_circle
     description: Get ready for your business growth. Prepare your system for scaling with an introduction to the microservices architecture with practical examples.
-    topics: Spring Boot, Docker, Docker Compose
+    topics: Spring Boot, Spring Cloud, Docker, Docker Compose, Kafka
 
 de:
   - title: Clean Code
@@ -48,4 +48,30 @@ de:
   - title: Microservices
     icon: cloud_circle
     description: Machen Sie sich bereit für Ihr Geschäftswachstum. Bereiten Sie Ihr System für die Zukunft vor mit einer Einführung in die Microservices Architektur.
-    topics: Spring Boot, Docker, Docker Compose
+    topics: Spring Boot, Spring Cloud, Docker, Docker Compose, Kafka
+
+es:
+  - title: Clean Code
+    icon: wrap_text
+    description: Código estructurado y entendible incrementa la productividad del equipo de desarrollo y reduce costes de mantenimiento.
+    topics: Código limpio, Desarrollo Test Driven
+  - title: Power Coding
+    icon: code
+    description: Principios y patrones de desarrollo para crear el código de mejor calidad. Alcanza tus objetivos de largo plazo más rápido y evita bugs.
+    topics: Principios de desarrollo, Patrones de desarrollo.
+  - title: Java 8
+    icon: free_breakfast
+    description: Las últimas características de Java 8 incrementarán tu seguridad, flexibilidad y velocidad de desarrollo.
+    topics: Streams, Expresiones Lambda, Composición de funciones, LocalDateTime
+  - title: Spring Boot
+    icon: layers
+    description: Spring Boot es un framework seguro y de confianza. Alcanza tus objetivos a la velocidad de la luz y protégelos con una seguridad blindada.
+    topics: Spring Boot, Data, Security, Rest, Thymeleaf
+  - title: Integración Contínua
+    icon: all_inclusive
+    description: Evita horas interminables de testeo y paso a producción. Simplifícalo todo automáticamente con un único click combinando varias herramientas profesionales.
+    topics: Spring Boot, Docker, GitHub, Circle-CI, DockerHub, Rancher
+  - title: Microservicios
+    icon: cloud_circle
+    description: Prepara tu software para el crecimiento de tu empresa con una introducción práctica a los microservicios.
+    topics: Spring Boot, Spring Cloud, Docker, Docker Compose, Kafka

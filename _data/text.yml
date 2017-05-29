@@ -52,6 +52,7 @@ en:
     companypurpose: Member of the WKO<br />Information and Consulting Section<br />Occupation / business purpose&#58; technical service provider, Austria
     legalregulations: <b>Legal regulations</b><br />Austrian trade regulation, <a href='www.ris.bka.gv.at' target='_blank'>www.ris.bka.gv.at</a>
     tradedescription: <b>Trade description</b><br />Services in automatic data processing and information technology
+
 de:
   home:
     engage: Take your development team
@@ -106,3 +107,58 @@ de:
     companypurpose: Mitglied der WKO<br />Fachgruppe Information und Consulting<br />Berufsbezeichnung / Unternehmensgegenstand&#58; technischer Dienstleister, Österreich
     legalregulations: <b>Gesetzliche Vorschriften</b><br />Gewerbeordnung, <a href='www.ris.bka.gv.at' target='_blank'>www.ris.bka.gv.at</a>
     tradedescription: <b>Gewerbebezeichnung</b><br />Dienstleistungen in der automatischen Datenverarbeitung und Informationstechnik
+
+es:
+  home:
+    engage: Haz que tu equipo de desarrollo sea
+    seetrainings: ver trainings
+  advantages:
+    title: Ventajas
+    description: En Beyond Coding creemos que las empresas merecen poder emplear las últimas tecnologías. Es por eso que desafiamos constantemente el estado del arte del desarrollo de software actual con las últimas innovaciones. Con nuestros trainings conseguirás alcanzar tus metas de desarrollo de software mucho más rápido y reducirás costes de mantenimiento.
+    related-trainings: Trainings relacionados
+    advantage:
+      - title: Incrementa la Eficiencia
+        logo: fa fa-users
+        description: Código limpio y entendible que sigue principios de diseño asegura un cómodo mantenimiento, una rápida velocidad de desarrollo y una comunicación más transparente entre desarrolladores.
+        related-trainings:
+          - name: Clean Code
+            url: /es/trainings
+          - name: Power Coding
+            url: /es/trainings
+      - title: Dispara tu Productividad
+        logo: fa fa-line-chart
+        description: Benefíciate de las últimas capacidades de tu lenguaje de programación y utiliza frameworks de open source profesionales para alcanzar resultados mucho más rápido e incrementar la seguridad de tu software.
+        related-trainings:
+          - name: Java 8
+            url: /es/trainings
+          - name: Spring Boot
+            url: /es/trainings
+      - title: Prepárate para Crecer
+        logo: fa fa-cubes
+        description: Evita el tedioso proceso manual de poner tu código en producción. Reduce la complejidad de la arquitectura de tu software y automatiza cómodamente cada paso para completarlo todo con un sólo click.
+        related-trainings:
+          - name: Integración Contínua
+            url: /es/trainings
+          - name: Microservicios
+            url: /es/trainings
+  trainings:
+    title: Trainings
+    description: No es necesario congelar la productividad de tu equipo de desarrollo para aprender los últimos conocimientos. Nuestros trainings son intensivos y concisos. En el plazo de unas horas tu equipo de desarrollo recibe presentaciones personalizadas y aprenden hasta el último detalle con ejemplos prácticos. No es necesario desplazarse. En lugar de ello Beyond Coding viene a ti.
+    topics: Temas
+  prices:
+    title: Prices
+    description: Our essential trainings are planed for groups of up to four developers in order to guarantee their learning process within the estimated duration. Trainings for bigger groups have an additional cost since they require more personalised attention and can extend the duration of the training.
+  contact:
+    subject: Pongámonos en contacto
+  legal:
+    title: Legal
+    companyname: Beyond Coding IT-Training g.h. e.U
+    address: Wiedner Hauptstrasse 73/1/22<br />1040 Vienna<br />Austria
+    contactinformation: <b>Información de contacto</b><br />Email&#58; <a href="mailto:guillermo.herrero@beyond-coding.com?subject=Pongámonos en contacto">guillermo.herrero@beyond-coding.com</a><br />Tel&#58; <a href='tel:+4367762319664'>+43 677 62319664</a><br />Internet&#58; <a href='http://www.beyond-coding.com' class='animsition-link'>www.beyond-coding.com</a>
+    legalstructure: <b>Estructura legal</b><br />Empresa individual (e.U.)<br />Empresa registrada en Viena
+    owner: <b>Director de la empresa</b><br />Guillermo Herrero
+    companyinformation: Registro de jurisdicción comercial&#58; Registro comercial de Viena<br />Número de registro de empresa&#58; 460900w<br />Número de identificación de IVA&#58; ATU71982312
+    chamber: <b>Cámara</b><br />Cámara de Economía de Austria (<a href='http://www.wko.at' target='_blank'>www.wko.at</a>)
+    companypurpose: Miembro de la WKO<br />Sección de Información y Consultoría<br />Ocupación / objetivo empresarial&#58; proveedor de servicios técnicos de informática
+    legalregulations: <b>Regulación legal</b><br />Regulación de comercio austriaco, <a href='www.ris.bka.gv.at' target='_blank'>www.ris.bka.gv.at</a>
+    tradedescription: <b>Descripción comercial</b><br />Servicios en procesado automático de la información y de tecnología de la información

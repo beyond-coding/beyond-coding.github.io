@@ -31,8 +31,30 @@ article {
         }
     }
 
+    h4 {
+      margin: 1rem 0;
+      font-size: 2em;
+      font-weight: 100;
+      color: $text-color;
+      @media #{$medium-and-up} {
+        margin: 2rem 0;
+      }
+    }
+
     p {
       text-align: justify;
+    }
+
+    ul {
+      padding-left: 2em;
+
+      li {
+        list-style-type: circle;
+      }
+
+      p {
+        text-align: left;
+      }
     }
 }
 

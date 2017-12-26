@@ -1,0 +1,30 @@
+---
+layout: content
+---
+
+<h3>{{site.data.training[page.lang][page.trainingname].title}}</h3>
+<p>
+    {{site.data.training[page.lang][page.trainingname].description}}
+</p>
+
+<h4>{{site.data.training[page.lang][page.trainingname].features.title}}</h4>
+<ul>
+    {% assign points=site.data.training[page.lang][page.trainingname].features.points %}
+    {% for point in points %}
+    <li>
+        <p>{{point}}</p>
+    </li>
+    {% endfor %}
+
+</ul>
+
+<h4>{{site.data.training[page.lang][page.trainingname].structure.title}}</h4>
+<ul>
+    {% assign points=site.data.training[page.lang][page.trainingname].structure.points %}
+    {% for point in points %}
+    <li>
+        <p>{{point}}</p>
+    </li>
+    {% endfor %}
+
+</ul>

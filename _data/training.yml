@@ -1,0 +1,79 @@
+en:
+  cleancode:
+    title: Clean Code
+    icon: wrap_text
+    description: Understandable and structured code increases team productivity and reduces maintenance costs.
+    features:
+      title: Features
+      points:
+        - Concepts and principles
+        - Basic and advance techniques with sample code and hands-on examples
+        - Practice solving challenges in groups
+        - Total duration of 8 hours including breaks
+    structure:
+      title: Structure
+      points:
+        - Importance and reasons why Clean Code should be encouraged
+        - Class structure for object oriented programming languages
+        - Relevance behind every variable and method name
+        - Ideal number of method arguments
+        - Level of abstraction through problem solving
+        - Exception control
+        - How to handle methods that don’t return expected values
+        - Class responsibilities in object oriented programming languages
+        - Conditional statements simplification with preconditions and polymorphism
+        - Getting rid of comments
+        - Clean Code in unit testing
+
+de:
+  -
+  - title: Clean Code
+    icon: wrap_text
+    description: Verständlicher und strukturierter Code erhöht die Produktivität des Teams und reduziert gleichzeitig die Wartungskosten.
+    topics: Clean code Praxis, Test-Driven development
+  - title: Power Coding
+    icon: code
+    description: Design-Prinzipien und Patterns, um den besten Qualitätscode zu schaffen. Erreichen Sie Ihre Ziele schneller und vermeiden Sie Bugs.
+    topics: Design-Prinzipien, Design-Patterns.
+  - title: Java 8
+    icon: free_breakfast
+    description: Die neuesten Features von Java 8 erhöhen Ihre Sicherheit, Flexibilität und Entwicklungsgeschwindigkeit.
+    topics: Streams, Lambda expressions, Function composition, LocalDateTime
+  - title: Spring Boot
+    icon: layers
+    description: Spring Boot ist ein sicheres und zuverlässiges Open Source Framework. Erreichen Sie Ihre Ziele blitzschnell und schützen Sie diese mit den modernsten Sicherheitsmaßnahmen.
+    topics: Spring Boot, Data, Security, Rest, Thymeleaf
+  - title: Continuous Deployment
+    icon: all_inclusive
+    description: Sparen Sie sich unzählige Stunden der Test- und Go-Live-Prozesse. Kombinieren Sie eine Reihe von professionellen Tools. Machen Sie alles automatisch mit nur einem Klick.
+    topics: Spring Boot, Docker, GitHub, Circle-CI, DockerHub, Rancher
+  - title: Microservices
+    icon: cloud_circle
+    description: Machen Sie sich bereit für Ihr Geschäftswachstum. Bereiten Sie Ihr System für die Zukunft vor mit einer Einführung in die Microservices Architektur.
+    topics: Spring Boot, Spring Cloud, Docker, Docker Compose, Kafka
+
+es:
+  - title: Clean Code
+    icon: wrap_text
+    description: Un código estructurado y entendible incrementa la productividad del equipo de desarrollo y reduce costes de mantenimiento.
+    topics: Código limpio, Desarrollo Test Driven
+  - title: Power Coding
+    icon: code
+    description: Principios y patrones de desarrollo para crear el código de mejor calidad. Alcanza tus objetivos de largo plazo más rápido y evita bugs.
+    topics: Principios de desarrollo, Patrones de desarrollo.
+  - title: Java 8
+    icon: free_breakfast
+    description: Las últimas características de Java 8 incrementarán tu seguridad, flexibilidad y velocidad de desarrollo.
+    topics: Streams, Expresiones Lambda, Composición de funciones, LocalDateTime
+  - title: Spring Boot
+    icon: layers
+    description: Spring Boot es un framework seguro y de confianza. Alcanza tus objetivos a la velocidad de la luz y protégelos con una seguridad blindada.
+    topics: Spring Boot, Data, Security, Rest, Thymeleaf
+  - title: Integración Contínua
+    icon: all_inclusive
+    description: Evita horas interminables de testeo y paso a producción. Simplifícalo todo automáticamente con un único click combinando varias herramientas profesionales.
+    topics: Spring Boot, Docker, GitHub, Circle-CI, DockerHub, Rancher
+  - title: Microservicios
+    icon: cloud_circle
+    description: Prepara tu software para el crecimiento de tu empresa con una introducción práctica a los microservicios.
+    topics: Spring Boot, Spring Cloud, Docker, Docker Compose, Kafka

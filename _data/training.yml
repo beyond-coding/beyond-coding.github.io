@@ -1,4 +1,7 @@
 en:
+  backtotrainings:
+    text: Back to trainings.
+    link: /en/trainings
   cleancode:
     title: Clean Code
     icon: wrap_text

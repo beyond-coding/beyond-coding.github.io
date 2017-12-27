@@ -10,12 +10,12 @@ layout: content
 <div class="trainings">
   {% assign trainings=site.data.trainings[page.lang] %}
   {% for training in trainings %}
-    <div class="training">
+    <a class="training" href="{{training.link}}">
         <div class="logo"><i class="material-icons">{{training.icon}}</i></div>
         <h4>{{training.title}}</h4>
         <p>{{training.description}}</p>
         <p class="topics">{{site.data.text[page.lang].trainings.topics}}: {{training.topics}}</p>
-    </div>
+    </a>
   {% endfor %}
 
 </div>

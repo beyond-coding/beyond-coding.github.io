@@ -3,26 +3,32 @@ en:
     icon: wrap_text
     description: Understandable and structured code increases team productivity and reduces maintenance costs.
     topics: Clean code practices, Test-Driven development
+    link: /en/trainings/cleancode
   - title: Power Coding
     icon: code
     description: Design principles and patterns to create the best quality code. Reach your goals faster and avoid bugs.
     topics: Design principles, Design patterns.
+    link: /en/trainings/powercoding
   - title: Java 8
     icon: free_breakfast
     description: The latest features of Java 8 will increase your security, flexibility and development speed.
     topics: Streams, Lambda expressions, Function composition, LocalDateTime
+    link: /en/trainings/java8
   - title: Spring Boot
     icon: layers
     description: Spring Boot is a secure and reliable open source framework. Reach your goals at a lightning speed and secure them with the strongest security.
     topics: Spring Boot, Data, Security, Rest, Thymeleaf
+    link: /en/trainings/springboot
   - title: Continuous Deployment
     icon: all_inclusive
     description: Save countless hours of testing and go-live processes. Do it all automatically with just one click combining a set of professional tools.
     topics: Spring Boot, Docker, GitHub, Circle-CI, DockerHub, Rancher
+    link: /en/trainings/continuousdeployment
   - title: Microservices
     icon: cloud_circle
     description: Get ready for your business growth. Prepare your system for scaling with an introduction to the microservices architecture with practical examples.
     topics: Spring Boot, Spring Cloud, Docker, Docker Compose, Kafka
+    link: /en/trainings/microservices
 
 de:
   - title: Clean Code

@@ -35,6 +35,7 @@ en:
     title: Trainings
     description: Your development team doesn't need to freeze its productivity for several weeks in order to learn the new material. Our essential trainings are focused and concise. Within few hours your developers receive dedicated presentations and learn to the detail by example. No need to move somewhere else. Instead, Beyond Coding moves to you.
     topics: Topics
+    clicktoshowmore: (click to show more)
   prices:
     title: Prices
     description: Our essential trainings are planed for groups of up to four developers in order to guarantee their learning process within the estimated duration. Trainings for bigger groups have an additional cost since they require more personalised attention and can extend the duration of the training.

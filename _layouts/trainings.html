@@ -8,14 +8,15 @@ layout: content
 </p>
 
 <div class="trainings">
-  {% assign trainings=site.data.trainings[page.lang] %}
-  {% for training in trainings %}
+    {% assign trainings=site.data.trainings[page.lang] %}
+    {% for training in trainings %}
     <a class="training" href="{{training.link}}">
         <div class="logo"><i class="material-icons">{{training.icon}}</i></div>
         <h4>{{training.title}}</h4>
         <p>{{training.description}}</p>
         <p class="topics">{{site.data.text[page.lang].trainings.topics}}: {{training.topics}}</p>
+        <p class="bottomline hide-on-med-and-up">{{site.data.text[page.lang].trainings.clicktoshowmore}}</p>
     </a>
-  {% endfor %}
+    {% endfor %}
 
 </div>

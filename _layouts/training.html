@@ -7,24 +7,48 @@ layout: content
     {{site.data.training[page.lang][page.trainingname].description}}
 </p>
 
-<h4>{{site.data.training[page.lang][page.trainingname].features.title}}</h4>
-<ul>
-    {% assign points=site.data.training[page.lang][page.trainingname].features.points %}
-    {% for point in points %}
-    <li>
-        <p>{{point}}</p>
-    </li>
-    {% endfor %}
+<div class="row">
+    <div class="col s12 l6">
+        <h4>{{site.data.training[page.lang][page.trainingname].advantages.title}}</h4>
+        <ul>
+            {% assign points=site.data.training[page.lang][page.trainingname].advantages.points %}
+            {% for point in points %}
+            <li>
+                <p>{{point}}</p>
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
 
-</ul>
+    <div class="col s12 l6">
+        <h4>{{site.data.training[page.lang][page.trainingname].features.title}}</h4>
+        <ul>
+            {% assign points=site.data.training[page.lang][page.trainingname].features.points %}
+            {% for point in points %}
+            <li>
+                <p>{{point}}</p>
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
 
-<h4>{{site.data.training[page.lang][page.trainingname].structure.title}}</h4>
-<ul>
-    {% assign points=site.data.training[page.lang][page.trainingname].structure.points %}
-    {% for point in points %}
-    <li>
-        <p>{{point}}</p>
-    </li>
-    {% endfor %}
+</div>
 
-</ul>
+<div class="row">
+    <div class="col s12 l6">
+        <h4>{{site.data.training[page.lang][page.trainingname].structure.title}}</h4>
+        <ul>
+            {% assign points=site.data.training[page.lang][page.trainingname].structure.points %}
+            {% for point in points %}
+            <li>
+                <p>{{point}}</p>
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
+</div>
+
+<br/>
+<p>
+    {{site.data.training[page.lang][page.trainingname].bottomline}}
+</p>

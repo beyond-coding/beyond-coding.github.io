@@ -2,7 +2,14 @@ en:
   cleancode:
     title: Clean Code
     icon: wrap_text
-    description: Understandable and structured code increases team productivity and reduces maintenance costs.
+    description: Understandable and structured code increases team productivity and reduces maintenance costs. Recent studies show that the time spent to read and interpret professional code is ten times more than the one spent in order to write it. <br /><br />The true goal of Clean Code is to follow a series of principles and well known practices that will reduce considerably the read-write ratio, This way, companies, projects and development teams can move forward much faster, reduce the number of bugs to almost unexistant and reach their goals earlier, while at the same time ensuring a much more stable and resilient code.
+    advantages:
+      title: Advantages
+      points:
+        - Reduce considerably code review time
+        - No more debugging and bug fixing time
+        - Release products and features quicker
+        - Increase your productivity
     features:
       title: Features
       points:
@@ -24,6 +31,7 @@ en:
         - Conditional statements simplification with preconditions and polymorphism
         - Getting rid of comments
         - Clean Code in unit testing
+    bottomline: Clean Code is so cool, man.
 
 de:
   -

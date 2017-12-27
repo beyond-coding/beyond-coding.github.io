@@ -12,7 +12,7 @@ en:
         - Reduce considerably code review time
         - No more debugging and bug fixing time
         - Release products and features quicker
-        - Increase your productivity
+        - Increase your long term productivity
     features:
       title: Features
       points:
@@ -37,41 +37,37 @@ en:
     bottomline: Clean Code is so cool, man.
   powercoding:
     title: Power Coding
-    icon: wrap_text
-    description: Understandable and structured code increases team productivity and reduces maintenance costs. Recent studies show that the time spent to read and interpret professional code is ten times more than the one spent in order to write it. <br /><br />The true goal of Clean Code is to follow a series of principles and well known practices that will reduce considerably the read-write ratio, This way, companies, projects and development teams can move forward much faster, reduce the number of bugs to almost unexistant and reach their goals earlier, while at the same time ensuring a much more stable and resilient code.
+    icon: code
+    description: Design principles and patterns to create the best quality code. Reach your goals faster and avoid bugs.
     advantages:
       title: Advantages
       points:
-        - Reduce considerably code review time
-        - No more debugging and bug fixing time
-        - Release products and features quicker
-        - Increase your productivity
+        - Produce high quality code
+        - Save developing time applying renown common code solutions
+        - Avoid bugs
+        - Release new features quicker
+        - Increase your long term productivity
     features:
       title: Features
       points:
-        - Concepts and principles
-        - Basic and advance techniques with sample code and hands-on examples
+        - State of art code design principles
+        - Advance code design patterns with sample code and hands-on examples
         - Practice solving challenges in groups
         - Total duration of 8 hours including breaks
     structure:
       title: Structure
       points:
-        - Importance and reasons why Clean Code should be encouraged
-        - Class structure for object oriented programming languages
-        - Relevance behind every variable and method name
-        - Ideal number of method arguments
-        - Level of abstraction through problem solving
-        - Exception control
-        - How to handle methods that don’t return expected values
-        - Class responsibilities in object oriented programming languages
-        - Conditional statements simplification with preconditions and polymorphism
-        - Getting rid of comments
-        - Clean Code in unit testing
-    bottomline: Clean Code is so cool, man.
+        - Importance and reasons why Power Coding should be encouraged
+        - How to determine wich design principles to apply
+        - Worldwide renown design principles
+        - State of art S.O.L.I.D. design principles
+        - How to apply design patterns in an enterprise environment
+        - Most effective design patterns
+    bottomline: Power Coding is so cool, man.
   java8:
     title: Java 8
-    icon: wrap_text
-    description: Understandable and structured code increases team productivity and reduces maintenance costs. Recent studies show that the time spent to read and interpret professional code is ten times more than the one spent in order to write it. <br /><br />The true goal of Clean Code is to follow a series of principles and well known practices that will reduce considerably the read-write ratio, This way, companies, projects and development teams can move forward much faster, reduce the number of bugs to almost unexistant and reach their goals earlier, while at the same time ensuring a much more stable and resilient code.
+    icon: free_breakfast
+    description: The latest features of Java 8 will increase your security, flexibility and development speed.
     advantages:
       title: Advantages
       points:
@@ -100,11 +96,11 @@ en:
         - Conditional statements simplification with preconditions and polymorphism
         - Getting rid of comments
         - Clean Code in unit testing
-    bottomline: Clean Code is so cool, man.
+    bottomline: Java 8 is so cool, man.
   springboot:
     title: Spring Boot
-    icon: wrap_text
-    description: Understandable and structured code increases team productivity and reduces maintenance costs. Recent studies show that the time spent to read and interpret professional code is ten times more than the one spent in order to write it. <br /><br />The true goal of Clean Code is to follow a series of principles and well known practices that will reduce considerably the read-write ratio, This way, companies, projects and development teams can move forward much faster, reduce the number of bugs to almost unexistant and reach their goals earlier, while at the same time ensuring a much more stable and resilient code.
+    icon: layers
+    description: Spring Boot is a secure and reliable open source framework. Reach your goals at a lightning speed and secure them with the strongest security.
     advantages:
       title: Advantages
       points:
@@ -133,11 +129,11 @@ en:
         - Conditional statements simplification with preconditions and polymorphism
         - Getting rid of comments
         - Clean Code in unit testing
-    bottomline: Clean Code is so cool, man.
+    bottomline: Spring Boot is so cool, man.
   continuousdeployment:
     title: Continuous Deployment
-    icon: wrap_text
-    description: Understandable and structured code increases team productivity and reduces maintenance costs. Recent studies show that the time spent to read and interpret professional code is ten times more than the one spent in order to write it. <br /><br />The true goal of Clean Code is to follow a series of principles and well known practices that will reduce considerably the read-write ratio, This way, companies, projects and development teams can move forward much faster, reduce the number of bugs to almost unexistant and reach their goals earlier, while at the same time ensuring a much more stable and resilient code.
+    icon: all_inclusive
+    description: Save countless hours of testing and go-live processes. Do it all automatically with just one click combining a set of professional tools.
     advantages:
       title: Advantages
       points:
@@ -166,11 +162,11 @@ en:
         - Conditional statements simplification with preconditions and polymorphism
         - Getting rid of comments
         - Clean Code in unit testing
-    bottomline: Clean Code is so cool, man.
+    bottomline: Continuous Deployment is so cool, man.
   microservices:
     title: Microservices
-    icon: wrap_text
-    description: Understandable and structured code increases team productivity and reduces maintenance costs. Recent studies show that the time spent to read and interpret professional code is ten times more than the one spent in order to write it. <br /><br />The true goal of Clean Code is to follow a series of principles and well known practices that will reduce considerably the read-write ratio, This way, companies, projects and development teams can move forward much faster, reduce the number of bugs to almost unexistant and reach their goals earlier, while at the same time ensuring a much more stable and resilient code.
+    icon: cloud_circle
+    description: Get ready for your business growth. Prepare your system for scaling with an introduction to the microservices architecture with practical examples.
     advantages:
       title: Advantages
       points:
@@ -199,7 +195,7 @@ en:
         - Conditional statements simplification with preconditions and polymorphism
         - Getting rid of comments
         - Clean Code in unit testing
-    bottomline: Clean Code is so cool, man.
+    bottomline: Microservices are so cool, man.
 de:
   - title: Clean Code
     icon: wrap_text

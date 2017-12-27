@@ -35,9 +35,172 @@ en:
         - Getting rid of comments
         - Clean Code in unit testing
     bottomline: Clean Code is so cool, man.
-
+  powercoding:
+    title: Power Coding
+    icon: wrap_text
+    description: Understandable and structured code increases team productivity and reduces maintenance costs. Recent studies show that the time spent to read and interpret professional code is ten times more than the one spent in order to write it. <br /><br />The true goal of Clean Code is to follow a series of principles and well known practices that will reduce considerably the read-write ratio, This way, companies, projects and development teams can move forward much faster, reduce the number of bugs to almost unexistant and reach their goals earlier, while at the same time ensuring a much more stable and resilient code.
+    advantages:
+      title: Advantages
+      points:
+        - Reduce considerably code review time
+        - No more debugging and bug fixing time
+        - Release products and features quicker
+        - Increase your productivity
+    features:
+      title: Features
+      points:
+        - Concepts and principles
+        - Basic and advance techniques with sample code and hands-on examples
+        - Practice solving challenges in groups
+        - Total duration of 8 hours including breaks
+    structure:
+      title: Structure
+      points:
+        - Importance and reasons why Clean Code should be encouraged
+        - Class structure for object oriented programming languages
+        - Relevance behind every variable and method name
+        - Ideal number of method arguments
+        - Level of abstraction through problem solving
+        - Exception control
+        - How to handle methods that don’t return expected values
+        - Class responsibilities in object oriented programming languages
+        - Conditional statements simplification with preconditions and polymorphism
+        - Getting rid of comments
+        - Clean Code in unit testing
+    bottomline: Clean Code is so cool, man.
+  java8:
+    title: Java 8
+    icon: wrap_text
+    description: Understandable and structured code increases team productivity and reduces maintenance costs. Recent studies show that the time spent to read and interpret professional code is ten times more than the one spent in order to write it. <br /><br />The true goal of Clean Code is to follow a series of principles and well known practices that will reduce considerably the read-write ratio, This way, companies, projects and development teams can move forward much faster, reduce the number of bugs to almost unexistant and reach their goals earlier, while at the same time ensuring a much more stable and resilient code.
+    advantages:
+      title: Advantages
+      points:
+        - Reduce considerably code review time
+        - No more debugging and bug fixing time
+        - Release products and features quicker
+        - Increase your productivity
+    features:
+      title: Features
+      points:
+        - Concepts and principles
+        - Basic and advance techniques with sample code and hands-on examples
+        - Practice solving challenges in groups
+        - Total duration of 8 hours including breaks
+    structure:
+      title: Structure
+      points:
+        - Importance and reasons why Clean Code should be encouraged
+        - Class structure for object oriented programming languages
+        - Relevance behind every variable and method name
+        - Ideal number of method arguments
+        - Level of abstraction through problem solving
+        - Exception control
+        - How to handle methods that don’t return expected values
+        - Class responsibilities in object oriented programming languages
+        - Conditional statements simplification with preconditions and polymorphism
+        - Getting rid of comments
+        - Clean Code in unit testing
+    bottomline: Clean Code is so cool, man.
+  springboot:
+    title: Spring Boot
+    icon: wrap_text
+    description: Understandable and structured code increases team productivity and reduces maintenance costs. Recent studies show that the time spent to read and interpret professional code is ten times more than the one spent in order to write it. <br /><br />The true goal of Clean Code is to follow a series of principles and well known practices that will reduce considerably the read-write ratio, This way, companies, projects and development teams can move forward much faster, reduce the number of bugs to almost unexistant and reach their goals earlier, while at the same time ensuring a much more stable and resilient code.
+    advantages:
+      title: Advantages
+      points:
+        - Reduce considerably code review time
+        - No more debugging and bug fixing time
+        - Release products and features quicker
+        - Increase your productivity
+    features:
+      title: Features
+      points:
+        - Concepts and principles
+        - Basic and advance techniques with sample code and hands-on examples
+        - Practice solving challenges in groups
+        - Total duration of 8 hours including breaks
+    structure:
+      title: Structure
+      points:
+        - Importance and reasons why Clean Code should be encouraged
+        - Class structure for object oriented programming languages
+        - Relevance behind every variable and method name
+        - Ideal number of method arguments
+        - Level of abstraction through problem solving
+        - Exception control
+        - How to handle methods that don’t return expected values
+        - Class responsibilities in object oriented programming languages
+        - Conditional statements simplification with preconditions and polymorphism
+        - Getting rid of comments
+        - Clean Code in unit testing
+    bottomline: Clean Code is so cool, man.
+  continuousdeployment:
+    title: Continuous Deployment
+    icon: wrap_text
+    description: Understandable and structured code increases team productivity and reduces maintenance costs. Recent studies show that the time spent to read and interpret professional code is ten times more than the one spent in order to write it. <br /><br />The true goal of Clean Code is to follow a series of principles and well known practices that will reduce considerably the read-write ratio, This way, companies, projects and development teams can move forward much faster, reduce the number of bugs to almost unexistant and reach their goals earlier, while at the same time ensuring a much more stable and resilient code.
+    advantages:
+      title: Advantages
+      points:
+        - Reduce considerably code review time
+        - No more debugging and bug fixing time
+        - Release products and features quicker
+        - Increase your productivity
+    features:
+      title: Features
+      points:
+        - Concepts and principles
+        - Basic and advance techniques with sample code and hands-on examples
+        - Practice solving challenges in groups
+        - Total duration of 8 hours including breaks
+    structure:
+      title: Structure
+      points:
+        - Importance and reasons why Clean Code should be encouraged
+        - Class structure for object oriented programming languages
+        - Relevance behind every variable and method name
+        - Ideal number of method arguments
+        - Level of abstraction through problem solving
+        - Exception control
+        - How to handle methods that don’t return expected values
+        - Class responsibilities in object oriented programming languages
+        - Conditional statements simplification with preconditions and polymorphism
+        - Getting rid of comments
+        - Clean Code in unit testing
+    bottomline: Clean Code is so cool, man.
+  microservices:
+    title: Microservices
+    icon: wrap_text
+    description: Understandable and structured code increases team productivity and reduces maintenance costs. Recent studies show that the time spent to read and interpret professional code is ten times more than the one spent in order to write it. <br /><br />The true goal of Clean Code is to follow a series of principles and well known practices that will reduce considerably the read-write ratio, This way, companies, projects and development teams can move forward much faster, reduce the number of bugs to almost unexistant and reach their goals earlier, while at the same time ensuring a much more stable and resilient code.
+    advantages:
+      title: Advantages
+      points:
+        - Reduce considerably code review time
+        - No more debugging and bug fixing time
+        - Release products and features quicker
+        - Increase your productivity
+    features:
+      title: Features
+      points:
+        - Concepts and principles
+        - Basic and advance techniques with sample code and hands-on examples
+        - Practice solving challenges in groups
+        - Total duration of 8 hours including breaks
+    structure:
+      title: Structure
+      points:
+        - Importance and reasons why Clean Code should be encouraged
+        - Class structure for object oriented programming languages
+        - Relevance behind every variable and method name
+        - Ideal number of method arguments
+        - Level of abstraction through problem solving
+        - Exception control
+        - How to handle methods that don’t return expected values
+        - Class responsibilities in object oriented programming languages
+        - Conditional statements simplification with preconditions and polymorphism
+        - Getting rid of comments
+        - Clean Code in unit testing
+    bottomline: Clean Code is so cool, man.
 de:
-  -
   - title: Clean Code
     icon: wrap_text
     description: Verständlicher und strukturierter Code erhöht die Produktivität des Teams und reduziert gleichzeitig die Wartungskosten.
